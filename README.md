@@ -1,10 +1,10 @@
 
 
-# **Cron: Complete Guide**
+# **Cron**
 
 ![Cron Schedule](https://img.shields.io/badge/schedule%20%2A%20%2A%20%2A%20%2A%20%2A-black?logo=linux&logoColor=black&color=FCC624)
 
-![node-cron](https://img.shields.io/badge/node%20cron-black?logo=node.js&logoColor=black&color=5fa04e)
+![node-cron](https://img.shields.io/badge/node--cron-black?logo=node.js&logoColor=black&color=5fa04e)
 
 
 
