@@ -8,7 +8,7 @@
 
 
 
-## ** What is Cron?**
+## **What is Cron?**
 
 **Cron** is a **time-based job scheduler** used in Unix-like systems to run scripts or commands automatically at specified intervals.
 
@@ -19,7 +19,7 @@
 
 ---
 
-## ** Cron Syntax**
+## **Cron Syntax**
 
 A standard cron entry has 5 fields (sometimes 6 if seconds are supported) + the command:
 
@@ -66,7 +66,7 @@ A standard cron entry has 5 fields (sometimes 6 if seconds are supported) + the 
 
 ---
 
-## ** Cron Examples (Unix/Linux)**
+## **Cron Examples (Unix/Linux)**
 
 * **Every minute:**
 
@@ -100,7 +100,7 @@ A standard cron entry has 5 fields (sometimes 6 if seconds are supported) + the 
 
 ---
 
-## ** Node.js Cron Scheduling**
+## **Node.js Cron Scheduling**
 
 ### **a) node-cron**
 
@@ -201,7 +201,7 @@ later.setInterval(() => console.log("Runs every 5 minutes"), schedule);
 
 ---
 
-## ** Cron Usage & Best Practices**
+## **Cron Usage & Best Practices**
 
 1. **Use full paths** in scripts when scheduling via cron.
 2. **Log stdout and stderr** for debugging:
@@ -227,7 +227,7 @@ cron.schedule("* * * * *", async () => {
 
 ---
 
-## ** Node Cron vs Unix Cron**
+## **Node Cron vs Unix Cron**
 
 | Feature     | Unix/Linux Cron                | Node.js node-cron                         |
 | ----------- | ------------------------------ | ----------------------------------------- |
@@ -239,7 +239,7 @@ cron.schedule("* * * * *", async () => {
 
 ---
 
-## ** Summary**
+## **Summary**
 
 * **Cron** automates repetitive tasks, both on servers (Unix) and inside Node.js apps.
 * **Unix cron** is powerful, lightweight, and persistent.
